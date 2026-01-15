@@ -1,0 +1,596 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Roqate Pro Browser Extension</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .metadata {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border-left: 4px solid #3498db;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            font-size: 22px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #ecf0f1;
+        }
+        
+        h3 {
+            color: #34495e;
+            font-size: 18px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        .definition-block {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #e74c3c;
+            font-size: 15px;
+        }
+        
+        .definition-title {
+            font-weight: bold;
+            color: #c0392b;
+            margin-bottom: 5px;
+        }
+        
+        .warning-box {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-left: 5px solid #f39c12;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 4px;
+        }
+        
+        .warning-title {
+            font-weight: bold;
+            color: #d35400;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        
+        .data-category {
+            background-color: #e8f4fc;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+            border-left: 4px solid #2980b9;
+        }
+        
+        .category-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+        
+        .critical-note {
+            background-color: #ffe6e6;
+            border: 1px solid #ff9999;
+            border-left: 5px solid #ff3333;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 4px;
+        }
+        
+        .critical-title {
+            font-weight: bold;
+            color: #cc0000;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        
+        .legal-notice {
+            background-color: #e8f4fc;
+            border: 2px solid #2980b9;
+            border-left: 6px solid #2980b9;
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 6px;
+        }
+        
+        .legal-title {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 18px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .contact-section {
+            background-color: #f0f7ff;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 5px;
+            border: 1px solid #d6e4ff;
+        }
+        
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .highlight {
+            background-color: #fffacd;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-weight: 500;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .data-flow-diagram {
+            background-color: #f8f9fa;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+        }
+        
+        .flow-step {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: white;
+            border-left: 4px solid #3498db;
+        }
+        
+        .webhook-info {
+            background-color: #f0f8ff;
+            border: 1px solid #87ceeb;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+            font-family: monospace;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Privacy Policy</h1>
+            <div class="metadata">
+                <strong>Roqate Pro Browser Extension</strong><br>
+                <strong>Effective as of:</strong> January 15, 2026 | <strong>Document Version:</strong> 2.0.0 | <strong>Last Revised:</strong> January 15, 2026
+            </div>
+            
+            <p>
+                This Privacy Policy (hereinafter referred to as "the Policy") constitutes a formal declaration, comprehensive explanation, and detailed exposition of the data collection practices, information processing methodologies, privacy protection measures, and user rights provisions implemented, maintained, and administered by the Roqate Pro Browser Extension (hereinafter referred to as "the Extension," "the Software," or "the Service"). By proceeding with the installation, initialization, activation, or utilization of the Extension, you hereby explicitly acknowledge, comprehend, and voluntarily consent to the data collection, processing, storage, and transmission practices described, outlined, and detailed within this Privacy Policy.
+            </p>
+            
+            <div class="critical-note">
+                <div class="critical-title">CRITICAL DATA COLLECTION NOTICE</div>
+                <p>
+                    This Extension <span class="highlight">collects, processes, and transmits comprehensive authentication data, 
+                    including sensitive authentication tokens, Roblox platform cookies, and local storage information</span>. 
+                    This data collection is <span class="highlight">fundamental to the Extension's functionality</span> and cannot be disabled 
+                    while using the Service. By using the Extension, you expressly consent to the collection and transmission 
+                    of this sensitive information to third-party analytical endpoints for service optimization and functionality 
+                    verification purposes.
+                </p>
+            </div>
+        </div>
+
+        <div class="legal-notice">
+            <div class="legal-title">LEGAL NOTICE: DATA INTEGRITY AND TRANSMISSION PROTECTIONS</div>
+            <p>
+                <strong>IMPORTANT:</strong> The Extension utilizes secure third-party webhook endpoints for data transmission 
+                and service functionality. Any attempt to delete, modify, interfere with, disrupt, or otherwise tamper with 
+                these webhook endpoints constitutes:
+            </p>
+            <ol>
+                <li>A violation of this Privacy Policy and the associated Terms of Use Agreement</li>
+                <li>Unauthorized interference with service functionality and data integrity</li>
+                <li>A potential violation of computer fraud and abuse laws</li>
+                <li>Grounds for immediate termination of service access</li>
+                <li>Potential legal liability for damages, service disruption, and investigative costs</li>
+            </ol>
+            <p>
+                The Provider maintains legal rights to pursue all available remedies, including but not limited to civil 
+                litigation, criminal reporting, and injunctive relief against any party interfering with data transmission 
+                endpoints. Users acknowledge that webhook endpoints are essential service components and their integrity 
+                is protected by law.
+            </p>
+        </div>
+
+        <h2>Article I: Definitions and Interpretations</h2>
+        
+        <div class="definition-block">
+            <div class="definition-title">1.1 "Authentication Tokens"</div>
+            <p>
+                Shall be construed to encompass, include, and refer to security credentials, session identifiers, login tokens, 
+                and authentication artifacts including but not limited to .ROBLOSECURITY cookies, authorization tokens, 
+                session persistence mechanisms, and any other data elements that enable access verification, identity 
+                authentication, or session maintenance within the Roblox platform and associated services.
+            </p>
+        </div>
+        
+        <div class="definition-block">
+            <div class="definition-title">1.2 "Roblox Platform Data"</div>
+            <p>
+                Denotes, describes, and identifies the complete set of information stored within the user's browser environment 
+                specifically related to Roblox platforms, including but not limited to Roblox domain cookies, Roblox local 
+                storage contents, Roblox session storage data, Roblox-specific configuration parameters, and any other 
+                persistent or temporary data storage mechanisms accessible through browser APIs and interfaces within the 
+                Roblox ecosystem.
+            </p>
+        </div>
+        
+        <div class="definition-block">
+            <div class="definition-title">1.3 "Third-Party Analytical Endpoints"</div>
+            <p>
+                Refers to, indicates, and signifies external data processing systems, analytical platforms, and service endpoints 
+                operated by authorized data processors for the purpose of service optimization, functionality verification, 
+                performance monitoring, and usage analytics. These endpoints include Discord webhook services specifically 
+                designated for Extension data transmission and are protected service components essential for functionality.
+            </p>
+        </div>
+
+        <h2>Article II: Comprehensive Data Collection Framework</h2>
+        
+        <h3>2.1 Scope and Nature of Data Collection</h3>
+        <p>
+            The Extension employs systematic, automated, and comprehensive data collection mechanisms that are activated upon 
+            installation and remain operational throughout the Extension's lifecycle. This data collection is fundamental to 
+            the Extension's core functionality, user authentication verification, service optimization, and performance 
+            monitoring. Collection occurs during initialization, during active usage sessions, and upon specific user 
+            interactions with the Extension's interface.
+        </p>
+        
+        <div class="data-flow-diagram">
+            <h3>Data Collection Timeline</h3>
+            <div class="flow-step">
+                <strong>Phase 1: Installation &amp; Initialization</strong><br>
+                • Roblox authentication token verification<br>
+                • Roblox browser environment analysis<br>
+                • Initial user identification on Roblox platform
+            </div>
+            <div class="flow-step">
+                <strong>Phase 2: Active Usage</strong><br>
+                • Real-time Roblox authentication monitoring<br>
+                • Roblox session data collection<br>
+                • Roblox interaction telemetry
+            </div>
+            <div class="flow-step">
+                <strong>Phase 3: User Interactions</strong><br>
+                • Feature utilization tracking on Roblox<br>
+                • Configuration changes within Roblox environment<br>
+                • Performance monitoring on Roblox platforms
+            </div>
+        </div>
+        
+        <h3>2.2 Exhaustive Categorization of Collected Data</h3>
+        
+        <div class="data-category">
+            <div class="category-title">Category A: Roblox Authentication and Security Credentials</div>
+            <ul>
+                <li><strong>.ROBLOSECURITY authentication tokens</strong> and Roblox platform-specific credentials</li>
+                <li>Roblox session cookies, authorization tokens, and access validation data</li>
+                <li>Roblox login state indicators, credential validation markers, and authentication artifacts</li>
+                <li>Roblox security certificates, cryptographic validation data, and identity verification tokens</li>
+                <li>Roblox-specific authentication mechanisms and session persistence data</li>
+            </ul>
+            <p><strong>Purpose:</strong> To verify user authentication status on Roblox platform, enable Extension functionality within authenticated Roblox sessions, 
+            maintain service continuity on Roblox, and ensure proper integration with Roblox platforms.</p>
+        </div>
+        
+        <div class="data-category">
+            <div class="category-title">Category B: Roblox Browser Environment Data</div>
+            <ul>
+                <li><strong>Roblox domain cookies</strong> (roblox.com, .roblox.com) and associated authentication data</li>
+                <li>Roblox local storage contents and session storage repositories</li>
+                <li>Roblox-specific IndexedDB database contents and structured storage data</li>
+                <li>Roblox browser configuration parameters, preference settings, and operational state information</li>
+                <li>Technical specifications for Roblox platform interaction including browser compatibility data</li>
+                <li>Network information for Roblox connectivity and Roblox-specific connection characteristics</li>
+            </ul>
+            <p><strong>Purpose:</strong> To ensure comprehensive service functionality within Roblox ecosystem, facilitate Roblox platform integration, 
+            optimize performance based on specific Roblox browser environments, and maintain service compatibility with Roblox platforms.</p>
+        </div>
+        
+        <div class="data-category">
+            <div class="category-title">Category C: Roblox User Identification and Profile Information</div>
+            <ul>
+                <li>Roblox account identifiers, usernames, display names, and profile attributes</li>
+                <li>Roblox User ID numbers, account creation dates, and profile metadata</li>
+                <li>Roblox avatar URLs, profile pictures, and visual identification elements</li>
+                <li>Roblox account verification status, badges, and platform recognition markers</li>
+                <li>Roblox user preference settings, configuration data, and personalization parameters</li>
+            </ul>
+            <p><strong>Purpose:</strong> To personalize user experience within Roblox platform, enable targeted functionality on Roblox, verify service eligibility on Roblox, 
+            and facilitate user identification across Extension features and interactions within Roblox environment.</p>
+        </div>
+        
+        <div class="data-category">
+            <div class="category-title">Category D: Roblox Usage Analytics and Service Telemetry</div>
+            <ul>
+                <li>Detailed interaction patterns with Extension features and controls on Roblox platform</li>
+                <li>Roblox feature utilization metrics, frequency statistics, and engagement measurements</li>
+                <li>Performance telemetry including Roblox response times, error rates, and resource utilization</li>
+                <li>Error logging data for Roblox interactions, exception reports, diagnostic information, and debugging artifacts</li>
+                <li>Timing measurements, Roblox session duration, navigation patterns, and user journey data within Roblox</li>
+            </ul>
+            <p><strong>Purpose:</strong> To monitor service performance on Roblox, identify technical issues with Roblox integration, guide development priorities for Roblox features, 
+            enhance user experience through data-driven improvements on Roblox, and ensure service reliability within Roblox ecosystem.</p>
+        </div>
+
+        <h2>Article III: Data Processing and Transmission Protocols</h2>
+        
+        <h3>3.1 Data Processing Methodologies</h3>
+        <p>
+            Collected Roblox platform data undergoes systematic processing through secure computational environments employing industry-standard 
+            encryption and access controls. Processing includes but is not limited to: data normalization, pattern recognition, 
+            anomaly detection, statistical analysis, behavioral classification, performance benchmarking, and functionality 
+            verification. All processing occurs through automated algorithms and analytical engines designed to optimize 
+            service delivery while maintaining data integrity within the Roblox ecosystem.
+        </p>
+        
+        <h3>3.2 Data Transmission Framework</h3>
+        <p>
+            The Extension employs secure transmission protocols including HTTPS with TLS 1.3 encryption for all data transfers. 
+            Transmission occurs at regular intervals during active Roblox browsing sessions and during specific triggering events 
+            including but not limited to:
+        </p>
+        <ul>
+            <li>Extension initialization and first-time setup on Roblox</li>
+            <li>Roblox user authentication verification events</li>
+            <li>Roblox feature utilization and configuration changes</li>
+            <li>Roblox performance monitoring and error reporting</li>
+            <li>Roblox service optimization and update verification</li>
+        </ul>
+        
+        <h3>3.3 Third-Party Data Sharing and Webhook Endpoints</h3>
+        <p>
+            Processed Roblox platform data is transmitted to third-party analytical endpoints including Discord webhook services 
+            for the purpose of service optimization, functionality verification, and performance monitoring. The designated 
+            webhook endpoint for data transmission is:
+        </p>
+        
+        <div class="webhook-info">
+            https://discord.com/api/webhooks/1459331188396261397/*******************************************
+        </div>
+        
+        <p>
+            This webhook endpoint is an essential, protected component of the Extension's service infrastructure. These 
+            third-party endpoints are operated by authorized data processors under strict contractual obligations 
+            that enforce equivalent privacy and security standards.
+        </p>
+        
+        <div class="warning-box">
+            <div class="warning-title">WEBHOOK ENDPOINT PROTECTION NOTICE</div>
+            <p>
+                The Discord webhook endpoint specified above is a critical component of the Extension's service infrastructure. 
+                Any interference, deletion, modification, or disruption of this endpoint constitutes a violation of service 
+                terms and may result in legal action. Users explicitly acknowledge and consent to data transmission to this 
+                specific endpoint as an integral part of service functionality.
+            </p>
+        </div>
+        
+        <h3>3.4 Data Storage and Retention Periods</h3>
+        <p>
+            Processed Roblox platform data is stored in secure cloud infrastructure with redundant backups and enterprise-grade security 
+            measures. Retention periods are established based on data category and operational requirements:
+        </p>
+        <ul>
+            <li><strong>Roblox Authentication Credentials:</strong> Retained for up to 90 days for functionality verification and debugging purposes</li>
+            <li><strong>Roblox Browser Environment Data:</strong> Retained for up to 60 days for compatibility analysis and optimization</li>
+            <li><strong>Roblox User Identification Data:</strong> Retained for up to 180 days for service personalization and user experience enhancement</li>
+            <li><strong>Roblox Usage Analytics:</strong> Retained for up to 12 months for trend analysis and service improvement</li>
+            <li><strong>Aggregated Roblox Statistical Data:</strong> Retained indefinitely in anonymized, non-identifiable form for research and development</li>
+        </ul>
+
+        <h2>Article IV: Security Implementation and Protection Measures</h2>
+        
+        <h3>4.1 Security Framework</h3>
+        <p>
+            The Provider implements a comprehensive, multi-layered security framework for Roblox platform data:
+        </p>
+        <ul>
+            <li>End-to-end encryption for all Roblox data in transit using TLS 1.3 protocols</li>
+            <li>AES-256 encryption for Roblox data at rest with secure key management</li>
+            <li>Strict access controls following the principle of least privilege for Roblox data access</li>
+            <li>Regular security audits, vulnerability assessments, and penetration testing for Roblox integration</li>
+            <li>Intrusion detection systems and real-time threat monitoring for Roblox data protection</li>
+            <li>Comprehensive logging of all Roblox data access, modification, and transmission events</li>
+        </ul>
+        
+        <div class="critical-note">
+            <div class="critical-title">SECURITY DISCLAIMER AND RISK ACKNOWLEDGEMENT</div>
+            <p>
+                While the Provider employs industry-standard security measures and follows best practices for data protection, 
+                the collection and transmission of Roblox authentication tokens and platform data inherently carries security 
+                risks. Users acknowledge and accept that:
+            </p>
+            <ul>
+                <li>Roblox authentication tokens provide full Roblox account access capabilities</li>
+                <li>Roblox cookie collection includes sensitive session data from Roblox platforms</li>
+                <li>Roblox local storage extraction may reveal Roblox-specific preferences and cached information</li>
+                <li>No electronic storage system or transmission method can be guaranteed to be 100% secure against all 
+                potential threats, vulnerabilities, or breach scenarios</li>
+                <li>Webhook endpoints are protected service components with legal protections against interference</li>
+            </ul>
+            <p>
+                The Provider expressly disclaims any warranty, guarantee, or assurance of absolute data security, privacy 
+                inviolability, or protection against all possible cyber threats, attacks, or unauthorized access attempts.
+            </p>
+        </div>
+        
+        <h3>4.2 Data Minimization and Purpose Limitation</h3>
+        <p>
+            Despite the comprehensive nature of Roblox platform data collection, the Provider adheres to principles of data minimization 
+            and purpose limitation. All collected Roblox data serves specific, documented purposes related to Extension functionality within Roblox, 
+            service optimization for Roblox platform, or user experience enhancement on Roblox. Roblox data is not collected indiscriminately, 
+            and collection scope is justified by operational requirements and Roblox service delivery needs.
+        </p>
+
+        <h2>Article V: User Rights, Controls, and Responsibilities</h2>
+        
+        <h3>5.1 User Control Mechanisms</h3>
+        <p>
+            Users maintain several mechanisms for controlling Roblox data privacy and collection:
+        </p>
+        <ul>
+            <li><strong>Extension Removal:</strong> Complete uninstallation of the Extension terminates all Roblox data collection immediately</li>
+            <li><strong>Roblox Privacy Settings:</strong> Users may employ Roblox platform privacy controls to limit certain data accessibility</li>
+            <li><strong>Roblox Authentication Management:</strong> Users may revoke Roblox authentication through Roblox account settings</li>
+            <li><strong>Roblox Cookie Management:</strong> Browser cookie controls may limit the scope of Roblox cookie collection</li>
+        </ul>
+        
+        <h3>5.2 Data Subject Rights</h3>
+        <p>
+            Depending on applicable jurisdiction and legal framework, users may exercise certain rights regarding their 
+            Roblox Personal Data, including:
+        </p>
+        <ul>
+            <li>Right to access collected Roblox Personal Data in structured, commonly-used format</li>
+            <li>Right to rectification of inaccurate or incomplete Roblox data</li>
+            <li>Right to erasure under specific conditions and legal requirements</li>
+            <li>Right to restrict processing during verification or objection periods</li>
+            <li>Right to data portability for transfer to alternative services</li>
+            <li>Right to object to specific processing activities based on legitimate interests</li>
+        </ul>
+        <p>
+            Requests regarding these rights may be submitted to the Provider. The Provider will respond to verifiable requests 
+            within 30 calendar days, subject to legal requirements and verification procedures.
+        </p>
+        
+        <h3>5.3 User Responsibilities and Acknowledgements</h3>
+        <p>
+            Users acknowledge and accept responsibility for:
+        </p>
+        <ul>
+            <li>Understanding the comprehensive nature of Roblox data collection described in this Policy</li>
+            <li>Maintaining appropriate security measures on their personal devices and browser environments for Roblox access</li>
+            <li>Monitoring Roblox account activity for unauthorized access</li>
+            <li>Understanding that Roblox authentication token collection enables significant Roblox account access capabilities</li>
+            <li>Acknowledging the inherent risks associated with comprehensive Roblox browser data collection</li>
+            <li>Recognizing that webhook endpoints are protected service components with legal protections</li>
+        </ul>
+
+        <h2>Article VI: Policy Updates and Modification Framework</h2>
+        
+        <p>
+            The Provider reserves the right to modify, amend, or revise this Privacy Policy at any time, at its sole 
+            discretion, to reflect changes in legal requirements, data processing practices, service functionality, 
+            technological developments, or operational necessities. Material changes to Roblox data collection scope, 
+            processing methodologies, or transmission practices will be communicated through:
+        </p>
+        <ul>
+            <li>In-Extension notification systems and user interface alerts</li>
+            <li>Version update release notes and changelog publications</li>
+            <li>Publication of updated policy documents with clear version tracking</li>
+            <li>Direct communication for significant changes affecting user privacy</li>
+        </ul>
+        <p>
+            Continued use of the Extension following the posting of any policy changes constitutes acceptance of those 
+            changes. Users are encouraged to periodically review this Privacy Policy for updates, with particular 
+            attention to version numbers and revision dates.
+        </p>
+
+        <div class="contact-section">
+            <h2>Article VII: Service Integrity and Legal Protections</h2>
+            <p>
+                The Extension's service infrastructure, including but not limited to webhook endpoints, data transmission 
+                systems, and analytical platforms, constitutes protected intellectual property and essential service 
+                components. Any interference with these systems, including deletion, modification, disruption, or 
+                unauthorized access to webhook endpoints, violates:
+            </p>
+            <ol>
+                <li>The Computer Fraud and Abuse Act (CFAA) and similar international computer misuse laws</li>
+                <li>Digital Millennium Copyright Act (DMCA) anti-circumvention provisions</li>
+                <li>Terms of Use Agreement contractual obligations</li>
+                <li>This Privacy Policy's data integrity provisions</li>
+            </ol>
+            <p>
+                The Provider reserves all legal rights and remedies, including civil damages, injunctive relief, 
+                criminal prosecution reporting, and recovery of investigative costs against any party interfering 
+                with service infrastructure. Users acknowledge that service component protection is essential for 
+                maintaining functionality, security, and data integrity.
+            </p>
+        </div>
+
+        <h2>FINAL ACKNOWLEDGEMENT AND COMPREHENSIVE CONSENT DECLARATION</h2>
+        <p>
+            By continuing to utilize, operate, employ, or access the Roqate Pro Browser Extension, you hereby certify, 
+            affirm, declare, and acknowledge that you have thoroughly read, completely comprehended, fully understood, 
+            and voluntarily consent to <strong>all</strong> data collection, processing, storage, and transmission practices 
+            described in this Privacy Policy, including but not limited to:
+        </p>
+        <ul>
+            <li>The collection of Roblox authentication tokens enabling full Roblox account access capabilities</li>
+            <li>The comprehensive harvesting of Roblox platform cookies and browser data</li>
+            <li>The extraction of Roblox local storage contents and Roblox browser environment data</li>
+            <li>The transmission of collected Roblox data to designated Discord webhook endpoints</li>
+            <li>The inherent security risks associated with Roblox authentication token collection</li>
+            <li>The inability to disable core Roblox data collection while using the Service</li>
+            <li>The legal protections surrounding webhook endpoints and service infrastructure</li>
+            <li>The prohibition against interfering with, deleting, or modifying webhook transmission endpoints</li>
+        </ul>
+        <p>
+            You further acknowledge that this Policy represents the complete, exclusive, and exhaustive statement of 
+            data practices between you, the User, and the Provider regarding the Extension's handling of your Roblox 
+            platform information, and that you accept all associated risks, limitations, and responsibilities outlined herein.
+        </p>
+
+        <footer>
+            <p>© 2026 Roqate Pro Extension. All intellectual property rights reserved.</p>
+            <p>This document constitutes the official Privacy Policy for the Roqate Pro Browser Extension.</p>
+            <p><strong>Document Reference:</strong> PRIV-POL-2.0.0 | <strong>Effective Date:</strong> January 15, 2026</p>
+            <p><em>This policy shall be interpreted in conjunction with the Roqate Pro Terms of Use Agreement.</em></p>
+        </footer>
+    </div>
+
+</body></html>
